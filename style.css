@@ -1,0 +1,133 @@
+body {
+    background: linear-gradient(rgba(253, 242, 255, 0.8), rgba(253, 242, 255, 0.8)), 
+                url('фон.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #5d4c72;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+nav {
+    background: #f8e1fb;
+    width: 100%;
+    padding: 20px 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #5d4c72;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: 0.3s;
+    padding: 10px 15px;
+}
+
+.nav-link:hover {
+    color: #ff8c69;
+}
+
+.nav-btn {
+    text-decoration: none;
+    background-color: #ff8c69;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: 2px dashed white;
+}
+
+.nav-btn:hover {
+    background-color: #5d4c72;
+    transform: scale(1.05);
+}
+
+.content-card {
+    background: white;
+    margin: 40px 20px;
+    padding: 40px;
+    border-radius: 40px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(93, 76, 114, 0.1);
+    border: 3px solid #fef0ff;
+}
+
+h1 {
+    color: #5d4c72;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 15px 20px;
+    border-radius: 25px;
+    border: 2px dashed #ffbca8;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-style: solid;
+    border-color: #ff8c69;
+    background-color: #fff9f7;
+}
+
+.btn {
+    display: inline-block;
+    background: #5d4c72;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #ff8c69;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 140, 105, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+p {
+    line-height: 1.6;
+}
+.icon {
+    border-radius: 15px;
+    width: 30%;
+    height: 30%;
+}
